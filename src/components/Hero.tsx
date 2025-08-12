@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Download, Twitter } from "lucide-react";
 import codingAnimation from "@/assets/coding-animation.gif";
+import { getExperienceYears } from "@/experience";
 
 export const Hero = () => {
   return (
@@ -22,7 +23,7 @@ export const Hero = () => {
 </h2>
               </div>
               <p className="text-lg text-muted-foreground max-w-2xl">
-                Hi, I'm Kartik, a passionate Software Developer with 3.5+ years
+                Hi, I'm Kartik, a passionate Software Developer with {getExperienceYears(1)}+ years
                 of experience building scalable, event-driven backend systems.
                 I've led development for high-performance applications and
                 open-source projects like PaperTraderX. Currently, I’m diving
