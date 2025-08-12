@@ -39,7 +39,7 @@ export const Hero = () => {
     <a href="#projects">View Projects</a>
   </Button>
   <Button asChild variant="outline" size="lg" className="hover:scale-105 transition-all duration-300">
-    <a href="https://drive.google.com/file/d/1E2-Nns6vzwu9bVW5MNojuIxQ5EqFzqjJ/view" target="_blank" rel="noopener noreferrer">
+    <a href="https://drive.google.com/file/d/1guelNnFILpOyg3LXH1MLZMN4mD-RdbMA/view" target="_blank" rel="noopener noreferrer">
       <Download className="mr-2 h-5 w-5" />
       Download CV
     </a>

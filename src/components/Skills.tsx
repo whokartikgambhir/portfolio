@@ -9,7 +9,7 @@ export const TechStack = () => {
     },
     {
       title: "Languages & Runtime",
-      skills: ["JavaScript", "TypeScript", "Node.js"],
+      skills: ["Golang", "JavaScript", "TypeScript", "Node.js"],
     },
     {
       title: "Architecture & Observability",
