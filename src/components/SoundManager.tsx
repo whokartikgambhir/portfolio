@@ -93,24 +93,25 @@ export default function SoundManager({ src = "/audio.mp3" }: Props) {
   return (
     <>
       {/* Popup */}
+      {/* Popup */}
       {showPopup && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-          <div className="w-full max-w-sm rounded-2xl bg-white p-6 shadow-xl dark:bg-neutral-900">
-            <h2 className="text-xl font-semibold">Enable sound?</h2>
-            <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-300">
+          <div className="w-full max-w-sm rounded-2xl bg-black p-6 shadow-xl">
+            <h2 className="text-xl font-semibold text-white">Enable sound?</h2>
+            <p className="mt-2 text-sm text-gray-300">
               We can play a short theme when you browse. You can mute or stop
               anytime.
             </p>
             <div className="mt-4 flex gap-3">
               <button
                 onClick={enableSound}
-                className="rounded-xl bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+                className="rounded-xl bg-blue-600 px-4 py-2 font-bold text-white hover:bg-blue-700"
               >
-                Yes, enable
+                Enable
               </button>
               <button
                 onClick={disableSound}
-                className="rounded-xl border px-4 py-2 hover:bg-neutral-50 dark:border-neutral-700 dark:hover:bg-neutral-800"
+                className="rounded-xl bg-red-600 px-4 py-2 font-bold text-white hover:bg-red-700"
               >
                 No, thanks
               </button>
